@@ -1,0 +1,1 @@
+{ "uuid": "spot-helper@spot.local", "name": "Spot helper (spike)", "description": "Phase 0 spike: owns the Spot hotkey, buffers type-ahead and positions the Spot GTK window.", "shell-version": ["48"], "settings-schema": "org.gnome.shell.extensions.spot-helper" }

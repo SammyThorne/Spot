@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["crates/spot-core", "crates/spot-gtk"]
+exclude = ["spike"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+[workspace.dependencies]
+spot-core = { path = "crates/spot-core" }
+
+[profile.release]
+lto = "thin"
+# Packages ship stripped binaries (Debian policy); ~40% smaller.
+strip = true

@@ -1,0 +1,1 @@
+{ "uuid": "spot-overlay@spot.local", "name": "Spot overlay (spike)", "description": "Phase 0 spike: Spotlight-style overlay rendered by GNOME Shell.", "shell-version": ["48"], "settings-schema": "org.gnome.shell.extensions.spot-overlay" }

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Spot
+Comment=Find and start apps from the keyboard (opens Spot's settings)
+Exec=@BINDIR@/spot --settings
+Icon=dev.spot.Spot
+Terminal=false
+Categories=Utility;
+Keywords=launcher;search;spotlight;run;shortcut;settings;
+DBusActivatable=true
+StartupNotify=true

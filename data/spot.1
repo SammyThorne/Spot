@@ -1,0 +1,74 @@
+.TH SPOT 1 "2026-11-25" "spot 0.1.0" "User Commands"
+.SH NAME
+spot \- Spotlight-style launcher for GNOME
+.SH SYNOPSIS
+.B spot
+.RB [ \-\-toggle | \-\-background | \-\-settings | \-\-quit ]
+.br
+.B spot \-\-search
+.I query
+.br
+.B spot \-\-version
+.SH DESCRIPTION
+.B spot
+is a resident launcher.
+Press
+.B Super+Space
+(handled by the
+.I spot-helper@spot.dev
+GNOME Shell extension), type, and press
+.BR Enter .
+It finds installed applications (desktop files) and AppImages, and also answers
+calculations, system actions (lock, log out, suspend, restart, power off),
+URLs, existing paths and web searches.
+.PP
+Without options,
+.B spot
+shows the launcher, starting the resident instance if needed.
+Starting Spot from the application grid opens its settings window instead.
+.SH OPTIONS
+.TP
+.B \-\-toggle
+Show the launcher, or hide it if it is shown.
+Bind this to a custom shortcut if you don't use the GNOME Shell extension.
+.TP
+.B \-\-background
+Start the resident instance without showing anything (used at login).
+.TP
+.B \-\-settings
+Open the settings window: extension status, shortcut conflicts, start at login,
+launch history.
+.TP
+.B \-\-quit
+Stop the resident instance.
+Needed after editing the configuration file.
+.TP
+.BI \-\-search " query"
+Print the results for
+.I query
+and exit.
+No display is needed.
+.TP
+.BR \-\-version ", " \-V
+Print the version.
+.SH FILES
+.TP
+.I ~/.config/spot/config.ini
+Optional settings: calculator, system actions, URLs and paths, web search and its URL.
+.TP
+.I ~/.local/share/spot/history.tsv
+Launch history used for ranking.
+Delete it, or use the settings window, to forget it.
+.TP
+.I ~/.cache/spot/appimages/
+Metadata and icons read from AppImages.
+.TP
+.I ~/.config/autostart/dev.spot.Spot.desktop
+Present when \(lqStart at login\(rq is on.
+.SH ENVIRONMENT
+.TP
+.B SPOT_APPIMAGE_DIRS
+Colon-separated folders to scan for AppImages instead of the defaults
+(~/Applications, ~/AppImages, ~/.local/bin, Downloads, Desktop).
+.SH SEE ALSO
+.BR gnome-extensions (1)

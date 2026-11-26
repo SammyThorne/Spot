@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.spot-helper" path="/org/gnome/shell/extensions/spot-helper/">
+    <key name="toggle" type="as"><default>['&lt;Super&gt;space']</default><summary>Toggle Spot</summary></key>
+  </schema>
+</schemalist>

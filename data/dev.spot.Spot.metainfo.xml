@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>dev.spot.Spot</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Spot</name>
+  <summary>Find and start apps from the keyboard</summary>
+  <developer id="dev.spot">
+    <name>Spot developers</name>
+  </developer>
+  <description>
+    <p>
+      Press Super+Space, type a few letters and press Enter. Spot finds installed
+      applications and AppImages, learns which ones you pick, and answers a few
+      things directly:
+    </p>
+    <ul>
+      <li>Calculations, copied with Enter</li>
+      <li>Lock, log out, suspend, restart and power off</li>
+      <li>Web addresses and files or folders by path</li>
+      <li>A web search when nothing else fits</li>
+    </ul>
+    <p>
+      AppImages are found in your Applications, Downloads and Desktop folders without
+      being run, and are started correctly even when the old libfuse2 is missing.
+    </p>
+    <p>
+      Spot uses a small GNOME Shell extension for its shortcut, so it opens instantly
+      and never loses what you start typing.
+    </p>
+  </description>
+  <launchable type="desktop-id">dev.spot.Spot.desktop</launchable>
+  <provides>
+    <binary>spot</binary>
+    <dbus type="user">dev.spot.Spot</dbus>
+  </provides>
+  <requires>
+    <display_length compare="ge">768</display_length>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+  </supports>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <keywords>
+    <keyword>launcher</keyword>
+    <keyword>spotlight</keyword>
+    <keyword>search</keyword>
+    <keyword>AppImage</keyword>
+  </keywords>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-11-25">
+      <description>
+        <p>First release: apps, AppImages, learned ranking, calculator, system actions,
+        URLs and paths, web search, and a setup window.</p>
+      </description>
+    </release>
+  </releases>
+</component>

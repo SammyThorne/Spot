@@ -1,0 +1,8 @@
+{
+  "uuid": "spot-helper@spot.dev",
+  "name": "Spot helper",
+  "description": "Companion for the Spot launcher: owns its keyboard shortcut, keeps keys typed before the window appears, and centres the window on the active monitor.",
+  "shell-version": ["48"],
+  "settings-schema": "org.gnome.shell.extensions.spot-helper",
+  "url": ""
+}

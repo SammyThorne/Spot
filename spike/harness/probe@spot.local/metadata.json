@@ -1,0 +1,1 @@
+{ "uuid": "probe@spot.local", "name": "Spike probe", "description": "Test-only: enables unsafe mode so the harness can Eval/Screenshot.", "shell-version": ["48"] }

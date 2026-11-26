@@ -1,0 +1,16 @@
+{"t": 3572634583, "ev": "portal-version", "version": 1}
+{"t": 3572637285, "ev": "host-registry", "ok": true}
+{"t": 3572639950, "ev": "create-session", "response": [0, {"session_handle": "/org/freedesktop/portal/desktop/session/1_33/spot"}]}
+{"t": 3572640184, "ev": "bind-requested"}
+{"t": 3589668269, "ev": "ShortcutsChanged", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", [["toggle", {"description": "Toggle Spot launcher", "trigger_description": "Press <Super>space"}]]]}
+{"t": 3589668763, "ev": "bind-response", "response": [2, {"shortcuts": [["toggle", {"description": "Toggle Spot launcher", "trigger_description": "Press <Super>space"}]]}]}
+{"t": 3591160318, "ev": "Activated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3591158, {}]}
+{"t": 3591160532, "ev": "Deactivated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3591158, {}]}
+{"t": 3591763349, "ev": "Activated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3591760, {}]}
+{"t": 3591763595, "ev": "Deactivated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3591760, {}]}
+{"t": 3592364771, "ev": "Activated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3592362, {}]}
+{"t": 3592365012, "ev": "Deactivated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3592362, {}]}
+{"t": 3592966709, "ev": "Activated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3592964, {}]}
+{"t": 3592966952, "ev": "Deactivated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3592965, {}]}
+{"t": 3593568774, "ev": "Activated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3593567, {}]}
+{"t": 3593569032, "ev": "Deactivated", "params": ["/org/freedesktop/portal/desktop/session/1_33/spot", "toggle", 3593567, {}]}

@@ -1,0 +1,1452 @@
+{
+  "gtk-py": {
+    "latency": {
+      "cycles": 12,
+      "all_focused": true,
+      "ready_notifications": 0,
+      "focus_always_returned": true,
+      "key_to_focus_ms": {
+        "median": 116.3,
+        "min": 98.8,
+        "max": 214.1
+      },
+      "key_to_pixels_ms": {
+        "median": 116.94999999999999,
+        "min": 99.6,
+        "max": 215.0
+      },
+      "key_to_app_ms": {
+        "median": 102.0,
+        "min": 88.4,
+        "max": 109.1
+      },
+      "rows": [
+        {
+          "focused": true,
+          "key_to_app_ms": 103.3,
+          "key_to_pixels_ms": 215.0,
+          "key_to_focus_ms": 214.1,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 101.8,
+          "key_to_pixels_ms": 116.6,
+          "key_to_focus_ms": 115.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 101.9,
+          "key_to_pixels_ms": 120.0,
+          "key_to_focus_ms": 118.4,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 105.9,
+          "key_to_pixels_ms": 117.1,
+          "key_to_focus_ms": 116.5,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 103.9,
+          "key_to_pixels_ms": 116.5,
+          "key_to_focus_ms": 115.7,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 102.1,
+          "key_to_pixels_ms": 116.8,
+          "key_to_focus_ms": 116.1,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 109.1,
+          "key_to_pixels_ms": 133.1,
+          "key_to_focus_ms": 132.1,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 91.5,
+          "key_to_pixels_ms": 101.4,
+          "key_to_focus_ms": 100.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 88.4,
+          "key_to_pixels_ms": 99.6,
+          "key_to_focus_ms": 98.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 101.2,
+          "key_to_pixels_ms": 118.6,
+          "key_to_focus_ms": 117.9,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 106.9,
+          "key_to_pixels_ms": 116.2,
+          "key_to_focus_ms": 115.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 100.3,
+          "key_to_pixels_ms": 117.3,
+          "key_to_focus_ms": 116.5,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "typeahead": {
+      "gap_ms": 40,
+      "trials": [
+        {
+          "first_key_delay_ms": 0,
+          "launcher_text": "",
+          "leaked_into_editor": "calc",
+          "pass": false
+        },
+        {
+          "first_key_delay_ms": 30,
+          "launcher_text": "c",
+          "leaked_into_editor": "cal",
+          "pass": false
+        },
+        {
+          "first_key_delay_ms": 60,
+          "launcher_text": "alc",
+          "leaked_into_editor": "c",
+          "pass": false
+        },
+        {
+          "first_key_delay_ms": 100,
+          "launcher_text": "alc",
+          "leaked_into_editor": "c",
+          "pass": false
+        },
+        {
+          "first_key_delay_ms": 150,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        }
+      ],
+      "min_safe_delay_ms": 150,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_false": {
+      "rect": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 24711,
+        "x": 0,
+        "y": 32,
+        "w": 680,
+        "h": 440,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": false,
+      "y": 32,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 24676,
+        "x": 259,
+        "y": 81,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": false,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_true": {
+      "rect": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 25237,
+        "x": 620,
+        "y": 336,
+        "w": 680,
+        "h": 440,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": true,
+      "y": 336,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 25194,
+        "x": 260,
+        "y": 106,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": false,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "multimonitor": {
+      "monitors": [
+        {
+          "i": 0,
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "i": 1,
+          "x": 1920,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "editor_monitor": 0,
+      "pointer_monitor": 1,
+      "launcher": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 25773,
+        "x": 2199,
+        "y": 66,
+        "w": 680,
+        "h": 440,
+        "monitor": 1,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "launcher_monitor": 1,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "overview": {
+      "shortcut_works_in_overview": false,
+      "overview_still_visible": true,
+      "launcher_open": true,
+      "ready_notifications": 0,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "fullscreen": {
+      "focused_over_fullscreen": true,
+      "stacking_bottom_to_top": [
+        "Dummy Editor",
+        "Spot Spike"
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "focus_out": {
+      "dismissed_on_click_outside": true,
+      "focus_now": "Dummy Editor",
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "launch": {
+      "launched_window_focused": true,
+      "launcher_closed": true,
+      "ready_notifications": 0,
+      "notifications": [],
+      "app_launch_events": [
+        {
+          "t": 3249228604,
+          "ev": "launch",
+          "app": "spot-test-target.desktop"
+        },
+        {
+          "t": 3249236626,
+          "ev": "launched",
+          "app": "spot-test-target.desktop",
+          "token": null
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "coldstart": {
+      "runs": [
+        {
+          "focused": true,
+          "key_to_pixels_ms": 583.4
+        },
+        {
+          "focused": true,
+          "key_to_pixels_ms": 331.7
+        },
+        {
+          "focused": true,
+          "key_to_pixels_ms": 342.3
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    }
+  },
+  "gtk-dbus": {
+    "latency": {
+      "cycles": 12,
+      "all_focused": true,
+      "ready_notifications": 0,
+      "focus_always_returned": true,
+      "key_to_focus_ms": {
+        "median": 30.3,
+        "min": 14.7,
+        "max": 123.4
+      },
+      "key_to_pixels_ms": {
+        "median": 31.05,
+        "min": 15.4,
+        "max": 124.4
+      },
+      "key_to_app_ms": {
+        "median": 9.100000000000001,
+        "min": 8.0,
+        "max": 10.8
+      },
+      "rows": [
+        {
+          "focused": true,
+          "key_to_app_ms": 10.8,
+          "key_to_pixels_ms": 124.4,
+          "key_to_focus_ms": 123.4,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 9.9,
+          "key_to_pixels_ms": 29.2,
+          "key_to_focus_ms": 28.4,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.6,
+          "key_to_pixels_ms": 16.1,
+          "key_to_focus_ms": 15.1,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.8,
+          "key_to_pixels_ms": 16.9,
+          "key_to_focus_ms": 16.2,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.4,
+          "key_to_pixels_ms": 35.4,
+          "key_to_focus_ms": 34.7,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.1,
+          "key_to_pixels_ms": 30.6,
+          "key_to_focus_ms": 30.0,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 9.9,
+          "key_to_pixels_ms": 35.5,
+          "key_to_focus_ms": 34.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 10.7,
+          "key_to_pixels_ms": 31.5,
+          "key_to_focus_ms": 30.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.2,
+          "key_to_pixels_ms": 32.0,
+          "key_to_focus_ms": 31.1,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 10.3,
+          "key_to_pixels_ms": 30.2,
+          "key_to_focus_ms": 29.3,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.0,
+          "key_to_pixels_ms": 15.4,
+          "key_to_focus_ms": 14.7,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 9.4,
+          "key_to_pixels_ms": 32.6,
+          "key_to_focus_ms": 31.9,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "typeahead": {
+      "gap_ms": 40,
+      "trials": [
+        {
+          "first_key_delay_ms": 0,
+          "launcher_text": "c",
+          "leaked_into_editor": "cal",
+          "pass": false
+        },
+        {
+          "first_key_delay_ms": 30,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 60,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 100,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 150,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        }
+      ],
+      "min_safe_delay_ms": 30,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_false": {
+      "rect": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 30157,
+        "x": 0,
+        "y": 32,
+        "w": 680,
+        "h": 440,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": false,
+      "y": 32,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 30119,
+        "x": 259,
+        "y": 81,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": false,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_true": {
+      "rect": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 30681,
+        "x": 620,
+        "y": 336,
+        "w": 680,
+        "h": 440,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": true,
+      "y": 336,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 30643,
+        "x": 260,
+        "y": 106,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": false,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "multimonitor": {
+      "monitors": [
+        {
+          "i": 0,
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "i": 1,
+          "x": 1920,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "editor_monitor": 0,
+      "pointer_monitor": 1,
+      "launcher": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 31197,
+        "x": 2199,
+        "y": 66,
+        "w": 680,
+        "h": 440,
+        "monitor": 1,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "launcher_monitor": 1,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "overview": {
+      "shortcut_works_in_overview": false,
+      "overview_still_visible": true,
+      "launcher_open": true,
+      "ready_notifications": 0,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "fullscreen": {
+      "focused_over_fullscreen": true,
+      "stacking_bottom_to_top": [
+        "Dummy Editor",
+        "Spot Spike"
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "focus_out": {
+      "dismissed_on_click_outside": true,
+      "focus_now": "Dummy Editor",
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "launch": {
+      "launched_window_focused": true,
+      "launcher_closed": true,
+      "ready_notifications": 0,
+      "notifications": [],
+      "app_launch_events": [
+        {
+          "t": 3311732932,
+          "ev": "launch",
+          "app": "spot-test-target.desktop"
+        },
+        {
+          "t": 3311738983,
+          "ev": "launched",
+          "app": "spot-test-target.desktop",
+          "token": null
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "coldstart": {
+      "skipped": "only gtk-py can cold-start from the shortcut (gdbus needs a D-Bus .service file)",
+      "dconf_guard": "stopped; real dconf untouched"
+    }
+  },
+  "gtk-recreate": {
+    "latency": {
+      "cycles": 12,
+      "all_focused": true,
+      "ready_notifications": 0,
+      "focus_always_returned": true,
+      "key_to_focus_ms": {
+        "median": 38.85,
+        "min": 34.1,
+        "max": 180.6
+      },
+      "key_to_pixels_ms": {
+        "median": 39.599999999999994,
+        "min": 34.7,
+        "max": 181.7
+      },
+      "key_to_app_ms": {
+        "median": 9.5,
+        "min": 7.6,
+        "max": 14.7
+      },
+      "rows": [
+        {
+          "focused": true,
+          "key_to_app_ms": 14.7,
+          "key_to_pixels_ms": 181.7,
+          "key_to_focus_ms": 180.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.1,
+          "key_to_pixels_ms": 47.9,
+          "key_to_focus_ms": 46.7,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 13.4,
+          "key_to_pixels_ms": 51.1,
+          "key_to_focus_ms": 49.9,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.3,
+          "key_to_pixels_ms": 38.4,
+          "key_to_focus_ms": 37.7,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 9.6,
+          "key_to_pixels_ms": 34.7,
+          "key_to_focus_ms": 34.2,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 9.4,
+          "key_to_pixels_ms": 34.9,
+          "key_to_focus_ms": 34.2,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 9.3,
+          "key_to_pixels_ms": 35.1,
+          "key_to_focus_ms": 34.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 13.7,
+          "key_to_pixels_ms": 52.8,
+          "key_to_focus_ms": 51.9,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 8.8,
+          "key_to_pixels_ms": 35.1,
+          "key_to_focus_ms": 34.2,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 14.2,
+          "key_to_pixels_ms": 40.8,
+          "key_to_focus_ms": 40.0,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 7.6,
+          "key_to_pixels_ms": 34.9,
+          "key_to_focus_ms": 34.1,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 11.4,
+          "key_to_pixels_ms": 48.7,
+          "key_to_focus_ms": 47.9,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "typeahead": {
+      "gap_ms": 40,
+      "trials": [
+        {
+          "first_key_delay_ms": 0,
+          "launcher_text": "",
+          "leaked_into_editor": "calc",
+          "pass": false
+        },
+        {
+          "first_key_delay_ms": 30,
+          "launcher_text": "alc",
+          "leaked_into_editor": "c",
+          "pass": false
+        },
+        {
+          "first_key_delay_ms": 60,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 100,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 150,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        }
+      ],
+      "min_safe_delay_ms": 60,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_true": {
+      "rect": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 35400,
+        "x": 620,
+        "y": 336,
+        "w": 680,
+        "h": 440,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": true,
+      "y": 336,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 35366,
+        "x": 260,
+        "y": 106,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": false,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    }
+  },
+  "shell-ext": {
+    "latency": {
+      "cycles": 12,
+      "all_focused": true,
+      "ready_notifications": 0,
+      "focus_always_returned": true,
+      "key_to_focus_ms": {
+        "median": 4.15,
+        "min": 3.0,
+        "max": 8.0
+      },
+      "key_to_pixels_ms": {
+        "median": 7.5,
+        "min": 5.6,
+        "max": 23.5
+      },
+      "key_to_app_ms": null,
+      "rows": [
+        {
+          "focused": true,
+          "key_to_focus_ms": 7.2,
+          "key_to_pixels_ms": 23.5,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 8.0,
+          "key_to_pixels_ms": 11.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 3.6,
+          "key_to_pixels_ms": 8.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 3.0,
+          "key_to_pixels_ms": 5.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 5.0,
+          "key_to_pixels_ms": 7.3,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 3.7,
+          "key_to_pixels_ms": 7.4,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 3.9,
+          "key_to_pixels_ms": 6.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 4.4,
+          "key_to_pixels_ms": 8.1,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 4.3,
+          "key_to_pixels_ms": 7.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 4.0,
+          "key_to_pixels_ms": 7.4,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 3.8,
+          "key_to_pixels_ms": 6.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_focus_ms": 4.5,
+          "key_to_pixels_ms": 7.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "typeahead": {
+      "gap_ms": 40,
+      "trials": [
+        {
+          "first_key_delay_ms": 0,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 30,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 60,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 100,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 150,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        }
+      ],
+      "min_safe_delay_ms": 0,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_false": {
+      "rect": {
+        "x": 620,
+        "y": 238,
+        "w": 680,
+        "h": 475,
+        "monitor": 0
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": true,
+      "y": 238,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 36723,
+        "x": 259,
+        "y": 81,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_true": {
+      "rect": {
+        "x": 620,
+        "y": 238,
+        "w": 680,
+        "h": 475,
+        "monitor": 0
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": true,
+      "y": 238,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 37131,
+        "x": 260,
+        "y": 106,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "multimonitor": {
+      "monitors": [
+        {
+          "i": 0,
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "i": 1,
+          "x": 1920,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "editor_monitor": 0,
+      "pointer_monitor": 1,
+      "launcher": {
+        "x": 2540,
+        "y": 238,
+        "w": 680,
+        "h": 475,
+        "monitor": 1
+      },
+      "launcher_monitor": 1,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "overview": {
+      "shortcut_works_in_overview": true,
+      "overview_still_visible": true,
+      "launcher_open": true,
+      "ready_notifications": 0,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "fullscreen": {
+      "focused_over_fullscreen": true,
+      "stacking_bottom_to_top": [
+        "Dummy Editor"
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "focus_out": {
+      "dismissed_on_click_outside": true,
+      "focus_now": "Dummy Editor",
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "launch": {
+      "app_indexed_by_shell": true,
+      "launched_window_focused": true,
+      "launcher_closed": true,
+      "ready_notifications": 0,
+      "notifications": [],
+      "app_launch_events": [],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "coldstart": {
+      "skipped": "only gtk-py can cold-start from the shortcut (gdbus needs a D-Bus .service file)",
+      "dconf_guard": "stopped; real dconf untouched"
+    }
+  },
+  "hybrid": {
+    "latency": {
+      "cycles": 12,
+      "all_focused": true,
+      "ready_notifications": 0,
+      "focus_always_returned": true,
+      "key_to_focus_ms": {
+        "median": 16.700000000000003,
+        "min": 14.7,
+        "max": 120.3
+      },
+      "key_to_pixels_ms": {
+        "median": 17.75,
+        "min": 15.5,
+        "max": 121.4
+      },
+      "key_to_app_ms": {
+        "median": 1.4,
+        "min": 1.1,
+        "max": 2.6
+      },
+      "rows": [
+        {
+          "focused": true,
+          "key_to_app_ms": 2.6,
+          "key_to_pixels_ms": 121.4,
+          "key_to_focus_ms": 120.3,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 1.5,
+          "key_to_pixels_ms": 24.4,
+          "key_to_focus_ms": 23.4,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 1.1,
+          "key_to_pixels_ms": 18.0,
+          "key_to_focus_ms": 16.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 2.5,
+          "key_to_pixels_ms": 17.8,
+          "key_to_focus_ms": 16.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 1.3,
+          "key_to_pixels_ms": 17.7,
+          "key_to_focus_ms": 16.8,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 1.3,
+          "key_to_pixels_ms": 17.2,
+          "key_to_focus_ms": 16.2,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 1.4,
+          "key_to_pixels_ms": 16.2,
+          "key_to_focus_ms": 15.5,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 1.2,
+          "key_to_pixels_ms": 18.1,
+          "key_to_focus_ms": 17.0,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 1.2,
+          "key_to_pixels_ms": 15.5,
+          "key_to_focus_ms": 14.7,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 2.3,
+          "key_to_pixels_ms": 16.5,
+          "key_to_focus_ms": 15.6,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 1.4,
+          "key_to_pixels_ms": 17.3,
+          "key_to_focus_ms": 16.2,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        },
+        {
+          "focused": true,
+          "key_to_app_ms": 2.2,
+          "key_to_pixels_ms": 20.2,
+          "key_to_focus_ms": 19.4,
+          "ready_notifications": 0,
+          "focus_returned_to_editor": true
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "typeahead": {
+      "gap_ms": 40,
+      "trials": [
+        {
+          "first_key_delay_ms": 0,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 30,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 60,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 100,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        },
+        {
+          "first_key_delay_ms": 150,
+          "launcher_text": "calc",
+          "leaked_into_editor": "",
+          "pass": true
+        }
+      ],
+      "min_safe_delay_ms": 0,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_false": {
+      "rect": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 41508,
+        "x": 620,
+        "y": 238,
+        "w": 680,
+        "h": 440,
+        "monitor": 0,
+        "above": true,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": true,
+      "y": 238,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 41474,
+        "x": 259,
+        "y": 81,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": false,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "placement_center_true": {
+      "rect": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 41992,
+        "x": 620,
+        "y": 238,
+        "w": 680,
+        "h": 440,
+        "monitor": 0,
+        "above": true,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "workarea": {
+        "x": 0,
+        "y": 32,
+        "w": 1920,
+        "h": 1048
+      },
+      "horizontally_centered": true,
+      "y": 238,
+      "editor": {
+        "title": "Dummy Editor",
+        "wmclass": "dev.spot.DummyDummyEditor",
+        "gtkAppId": "dev.spot.DummyDummyEditor",
+        "pid": 41958,
+        "x": 260,
+        "y": 106,
+        "w": 1400,
+        "h": 900,
+        "monitor": 0,
+        "above": false,
+        "hidden": false,
+        "focus": false,
+        "demandsAttention": false
+      },
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "multimonitor": {
+      "monitors": [
+        {
+          "i": 0,
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "i": 1,
+          "x": 1920,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "editor_monitor": 0,
+      "pointer_monitor": 1,
+      "launcher": {
+        "title": "Spot Spike",
+        "wmclass": "dev.spot.Spike",
+        "gtkAppId": "dev.spot.Spike",
+        "pid": 42485,
+        "x": 2540,
+        "y": 238,
+        "w": 680,
+        "h": 440,
+        "monitor": 1,
+        "above": true,
+        "hidden": false,
+        "focus": true,
+        "demandsAttention": false
+      },
+      "launcher_monitor": 1,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "overview": {
+      "shortcut_works_in_overview": true,
+      "overview_still_visible": false,
+      "launcher_open": true,
+      "ready_notifications": 0,
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "fullscreen": {
+      "focused_over_fullscreen": true,
+      "stacking_bottom_to_top": [
+        "Dummy Editor",
+        "Spot Spike"
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "focus_out": {
+      "dismissed_on_click_outside": true,
+      "focus_now": "Dummy Editor",
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "launch": {
+      "app_indexed_by_shell": true,
+      "launched_window_focused": true,
+      "launcher_closed": true,
+      "ready_notifications": 0,
+      "notifications": [],
+      "app_launch_events": [
+        {
+          "t": 3466448178,
+          "ev": "launch",
+          "app": "spot-test-target.desktop"
+        },
+        {
+          "t": 3466454498,
+          "ev": "launched",
+          "app": "spot-test-target.desktop",
+          "token": null
+        }
+      ],
+      "dconf_guard": "stopped; real dconf untouched"
+    },
+    "coldstart": {
+      "skipped": "only gtk-py can cold-start from the shortcut (gdbus needs a D-Bus .service file)",
+      "dconf_guard": "stopped; real dconf untouched"
+    }
+  }
+}

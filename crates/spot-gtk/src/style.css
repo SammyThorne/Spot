@@ -1,0 +1,74 @@
+/* Spotlight-like panel. Colors come from libadwaita named colors, so light/dark follow the system. */
+window.spot {
+  border-radius: 16px;
+}
+
+.spot-content {
+  padding: 8px;
+}
+
+.spot-entry {
+  font-size: 22px;
+  min-height: 52px;
+  padding: 0 12px;
+  background: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.spot-entry image {
+  -gtk-icon-size: 20px;
+  opacity: 0.6;
+}
+
+.spot-content > separator {
+  margin: 6px 4px;
+}
+
+.spot-list {
+  background: none;
+}
+
+.spot-list > row {
+  border-radius: 10px;
+  padding: 6px 10px;
+  margin: 1px 0;
+}
+
+.spot-list > row:selected {
+  background-color: var(--accent-bg-color);
+  color: var(--accent-fg-color);
+}
+
+.spot-name {
+  font-weight: 400;
+}
+
+/* Matched characters are <b> in the markup. */
+.spot-name b {
+  font-weight: 700;
+}
+
+.spot-answer {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.spot-empty {
+  padding: 10px 12px 14px;
+  opacity: 0.6;
+}
+
+.spot-subtitle {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.spot-tag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background-color: alpha(currentColor, 0.1);
+  opacity: 0.8;
+}
